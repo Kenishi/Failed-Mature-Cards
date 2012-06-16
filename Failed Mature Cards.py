@@ -4,7 +4,8 @@ Filename: Failed Mature Cards.py
 Version: 0.3
 Author: Kenishi
 Desc:	Generates a new graph that shows the number of mature cards that were failed over a time period
-		Support at http://forum.koohii.com/viewtopic.php?id=9495
+		
+		Report bugs to https://github.com/Kenishi/Failed-Mature-Cards
 """
 
 import anki
