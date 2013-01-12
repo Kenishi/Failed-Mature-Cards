@@ -1,7 +1,7 @@
 ﻿"""
 Name: Failed Mature Cards
 Filename: Failed Mature Cards.py
-Version: 0.3
+Version: 0.4
 Author: Kenishi
 Desc:	Generates a new graph that shows the number of mature cards that were failed over a time period
 		
@@ -9,6 +9,7 @@ Desc:	Generates a new graph that shows the number of mature cards that were fail
 """
 
 import anki
+import anki.stats
 from anki.hooks import wrap, addHook
 
 ###Constants###
