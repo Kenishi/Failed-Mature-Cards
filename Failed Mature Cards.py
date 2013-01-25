@@ -12,24 +12,8 @@ import anki
 import anki.stats
 from anki.hooks import wrap, addHook
 
-###Constants###
-DEBUG = False
-debugOut = None
-
 # Graph Bar Color
 reviewFailC = "#DE8073"
-
-def log(str):
-	##USAGE: Debug logging, make sure a <deck name>.media folder exists in deck's root directory for log to be created
-	##RETURNS: Nothing
-	global debugOut
-	
-	if DEBUG:
-		if not debugOut:
-			debugOut = open("""D:\mr_debug.txt""", mode="a")
-		debugOut.write(repr(str))
-		debugOut.close()
-
 
 def failingGraph(*args, **kwargs):
 	self = args[0]
